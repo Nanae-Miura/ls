@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>ピンポンゲーム</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <canvas width="280" height="280">
+    Canvas not supported.
+  </canvas>
+
+  <div class="message">
+    スコアが5以上のあなたはメモ機能を使うことができます！！おめでとう！<br>
+    なお、このメモはゲームプレイ中のみしか使用できません。頑張ってください。
+  </div>
+  <div class="alert">
+
+  </div>
+  <div class="memozone">
+    <h1>HTMLを使ったメモ帳</h1>
+    <textarea name="memo" id="memo" cols="40" rows="10"　place holder="ここにテキストが入る">
+    </textarea>
+    <p><input type="button" id="clear" value="消去"></p>
+  </div>
+
+  <div class="alert">
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
